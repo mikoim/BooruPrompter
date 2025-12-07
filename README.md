@@ -1,11 +1,16 @@
 # BooruPrompter
 
+Webアプリケーション版のBooruPrompterは `rs` ディレクトリ以下にあります。
+
+![](docs/dioxus.png)
+
+
 サジェスト機能に特化した画像生成用のプロンプト入力支援ツールです。
 
-WebツールじゃなくてWindowsアプリです！<br>
+WebツールじゃなくてWindowsアプリです！  
 （高速なサジェスト機能が欲しかったので……）
 
-<img src="docs/sample.jpg">
+![](docs/sample.jpg)
 
 ## 主な機能
 
@@ -31,15 +36,17 @@ WebツールじゃなくてWindowsアプリです！<br>
 ### 独自ルールのタグ整理 [NEW]
 なんか良い感じにまとめます。
 
-<img src="docs/sort_tags.png">
+![](docs/sort_tags.png)
 
 ## 必要条件
 - Windows 10以降
-- オフラインで動作（通信不要）<br>※ ただしプロンプト生成機能の初回使用時のみAIモデルをダウンロードします
+- オフラインで動作（通信不要）  
+  ※ ただしプロンプト生成機能の初回使用時のみAIモデルをダウンロードします
 
 ## ライセンス
 
-`MIT License`です。<br>自由に使ってください！
+`MIT License`です。  
+自由に使ってください！
 
 ## 利用ライブラリ等
 - [rapidfuzz-cpp](https://github.com/rapidfuzz/rapidfuzz-cpp) - 高速なあいまい検索ライブラリ
